@@ -18,14 +18,11 @@ return  Center(
     width: 150,
     height: 150,
 child: const Column(
+mainAxisAlignment: MainAxisAlignment.center,
 crossAxisAlignment: CrossAxisAlignment.center,
   children: [
-Align(
-      alignment: Alignment.center,
-      child: Text("App\n Akademie", 
-      textAlign: TextAlign.center,
-      ),
-    )
+Text("App"),
+Text("Akademie"),
   ],
 )
 ),
